@@ -1,0 +1,380 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+   /* button */
+
+        /* 7 */
+        .read-more {
+            background: linear-gradient(90deg, #FBA24F 0%, #FF1E1E 100%);
+            border: none;
+            font-size: 18px;
+            padding: 12px 22px;
+            border-radius: 50em;
+            color: #f3f3f3;
+            font-weight: 500;
+        }
+
+        .orenge-color {
+            color: orange;
+
+        }
+
+        .img-fluid {
+
+            width: 100%;
+            height: auto;
+        }
+
+        p {
+            font-size: 16px;
+            /* line-height: 20px; */
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .about {
+            
+            background-image: url(asset/background/barkground1.png);
+            /* min-height: 100%; */
+
+            width: 100%;
+  padding: 0 0%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  /* background-color: #373B44; */
+  /* height: 100vh; */
+    /* background-image:url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350"); */
+    background-repeat:no-repeat;
+  background-size:cover;
+        }
+
+.text-center {
+    text-align: center !important;
+}
+
+section {
+    padding: 45px 0px;
+    display: block;
+}
+
+.col-md-4 {
+    float: left;
+    width: 32%;
+    /* padding: 10px; */
+    /* height: 300px; */
+}
+
+.col-md-6 {
+    float: left;
+    width: 50%;
+}
+
+.col-md-12 {
+    float: left;
+    width: 100%;
+}
+
+
+@media (max-width:768px) {
+
+    .col-md-6 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1140px
+    }
+}
+
+
+.text-monospace {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important
+}
+
+.text-justify {
+    text-align: justify !important
+}
+
+.text-wrap {
+    white-space: normal !important
+}
+
+.text-nowrap {
+    white-space: nowrap !important
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.text-left {
+    text-align: left !important
+}
+
+.text-right {
+    text-align: right !important
+}
+
+.text-center {
+    text-align: center !important
+}
+
+
+/* card  */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 2em;
+
+    /* width: 80%; */
+    margin: 8px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+/* top section  */
+.row .col-md-6 .title {
+    color: #575757;
+    margin-top: 173px;
+    font-size: 60px;
+
+}
+
+@media (max-width:768px) {
+
+    .row .col-md-6 .title {
+        margin-top: 20px;
+
+    }
+
+}
+
+.row .col-md-6 .title-pragraph {
+    color: #828282;
+    padding: 32px 0px;
+}
+
+@media (max-width:768px) {
+
+    .row .col-md-6 .title-pragraph {
+        color: #828282;
+        padding: 32px 8px;
+        text-align: justify;
+    }
+
+}
+
+.row .col-md-6 .img-top {
+    position: relative;
+    right: 10%;
+    margin-bottom: 36px;
+}
+
+@media (max-width:768px) {
+
+    .row .col-md-6 .img-top {
+        color: #828282;
+        position: relative;
+        right: 5%;
+        /* left: auto; */
+    }
+
+}
+
+
+/* about me  */
+
+.about .data {
+    margin-top: 206px
+}
+
+@media (max-width:768px) {
+
+    .about .data {
+        margin-top: 20px
+    }
+
+}
+
+.about .female-avatar {
+    width: 50%;
+    padding-top: 80px;
+    position: relative;
+    bottom: -4px;
+}
+
+.about .title {
+    color: #707070;
+}
+
+@media (max-width:768px) {
+
+    .about .title {
+        text-align: center;
+    }
+
+}
+
+.about p {
+    padding: 27px 127px 20px 0px;
+    color: #18191F;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /* margin-right: 15px; */
+    line-height: 32px;
+}
+
+@media (max-width:768px) {
+
+    .about p {
+        padding: 8px;
+
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .about .custom-btm {
+        margin: 8px;
+    }
+
+}
+
+/* recipies */
+
+.recipies .title {
+    color: #676767;
+}
+
+.recipies p {
+    margin-top: 12px;
+    padding: 20px 244px;
+    text-align: center;
+    color: #252525;
+}
+
+@media (max-width:768px) {
+
+    .recipies p {
+        margin-top: 12px;
+        padding: 12px;
+        text-align: center;
+        color: #252525;
+    }
+
+}
+
+.card .data {
+    padding: 11px 19px;
+}
+.card .data h3 {
+    font-size: 28px;
+    color: #18191F;
+}
+
+.card .data p {
+    color: #18191F;
+}
+
+.recipie img{
+    width: 90%; padding: 20px;
+}
+
+
+@media (max-width:768px) {
+
+    .col-md-4 {
+        float: left;
+        width: 100%;
+        padding: 12px;
+        /* height: 300px; */
+    }
+
+}
+
+.socail h2{
+    color: #18191F;
+
+}
+.socail p{
+    color: #18191F;
+
+}
